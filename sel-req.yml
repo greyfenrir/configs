@@ -1,0 +1,12 @@
+execution:
+  - executor: selenium
+    hold-for: 1m
+    scenario:
+      browser: Chrome
+      requests:
+        - http://blazedemo.com
+    locations:
+      us-west-1: 1
+
+#services:
+#- virtual-display
